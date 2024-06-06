@@ -14,7 +14,7 @@ This is a simple task management application built with Node.js, Express, and Mo
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/Kushal293/my-task-app.git
+    git clone https://github.com/Kushal293/task-management-backend.git
     cd my-task-app
     ```
 
@@ -28,7 +28,7 @@ This is a simple task management application built with Node.js, Express, and Mo
 
 4. Start the server:
     ```sh
-    node server.js
+    node app.js
     ```
 
 5. The server will run on `http://localhost:3000`.
