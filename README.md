@@ -31,7 +31,7 @@ This is a simple task management application built with Node.js, Express, and Mo
     node app.js
     ```
 
-5. The server will run on `http://localhost:3000`.
+5. The server will run on `http://localhost:8000`.
 
 ## API Endpoints
 
@@ -39,11 +39,11 @@ This is a simple task management application built with Node.js, Express, and Mo
 - **login already registered user**: `POST /auth/login`
 - **logout already loggedIn user**: `POST /auth/logout`
 
-- **Create a new task**: `POST /api/users/:userId/tasks`
-- **Get all tasks for a user**: `GET /api/users/:userId/tasks`
-- **Mark a task as completed**: `PATCH /api/users/:userId/tasks/:taskId/complete`
-- **Edit a task**: `PUT /api/users/:userId/tasks/:taskId`
-- **Delete a task**: `DELETE /api/users/:userId/tasks/:taskId`
+- **Create a new task**: `POST /api/tasks`
+- **Get all tasks for a user**: `GET /api/tasks`
+- **Mark a task as completed**: `PATCH /api/tasks/:taskId/complete`
+- **Edit a task**: `PUT /api/tasks/:id`
+- **Delete a task**: `DELETE /api/tasks/:id`
 
 ## Validation
 
