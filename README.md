@@ -15,7 +15,7 @@ This is a simple task management application built with Node.js, Express, and Mo
 1. Clone the repository:
     ```sh
     git clone https://github.com/Kushal293/task-management-backend.git
-    cd my-task-app
+    cd task-management-backend
     ```
 
 2. Install dependencies:
